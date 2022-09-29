@@ -14,7 +14,8 @@ const Home: NextPage = () => {
   return (
     <div
       className="bg-[rgb(19,19,19)] text-gray-200 h-screen snap-y snap-mandatory
-    overflow-scroll z-0"
+    overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gary-400/20
+     scrollbar-thumb-red-600/40"
     >
       <Head>
         <title>Portfolio App</title>
@@ -26,11 +27,11 @@ const Home: NextPage = () => {
         <Hero />
       </section>
 
-      <section id='about' className="snap-center">
+      <section id="about" className="snap-center">
         <About />
       </section>
 
-      <section id='exsperience' className="snap-center">
+      <section id="exsperience" className="snap-center">
         <WorkExperience />
       </section>
 

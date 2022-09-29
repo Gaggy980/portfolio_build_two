@@ -13,10 +13,10 @@ function Skills({}: Props) {
       className=" flex relative flex-col text-center md:text-left  max-w-[2000px]
    xl:px-10 min-h-screen justify-center items-center mx-auto xl:space-y-0"
     >
-      <h3 className="absolute  top-24 uppercase tracking-[20px] text-2xl text-gray-400">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl text-gray-400">
         skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[2.5px] text-gray-500">
+      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for current profieciency
       </h3>
 
