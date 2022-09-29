@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
         className="border border-gray-500 rounded-full p-2
          bg-gray-300"
       >
-        <Image src={Avatar} alt="/" width={120} height={120} />
+        <Image src={Avatar} alt="logo" width={120} height={120} />
       </div>
       <div className="z-20">
           <h2 className="uppercase text-sm pb-2 tracking-[12px]">Software Engineer</h2>

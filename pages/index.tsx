@@ -9,6 +9,8 @@ import WorkExperience from "../components/WorkExperience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Link from "next/link";
+import Avatar from "../public/avatar.png";
 
 const Home: NextPage = () => {
   return (
@@ -46,6 +48,16 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center ">
+            <div className="h-12 w-12 rounded-full bg-red-800 filter grayscale
+            hover:grayscale-0 opacity-30 hover:opacity-[100%]">
+              <Image width={70} height={70} src={Avatar} alt="logo" />
+            </div>
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };
