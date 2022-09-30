@@ -45,7 +45,7 @@ export default function About({}: Props) {
             foundations on C#,.Net and python . That took me for a year to finish.
             After that I just wanted to refresh my front-end knowledge in HTML, CSS,
             jQuery, JavaScript and got super excited about Web development and
-            responsive websites.I'm now spending my time building projects with
+            responsive websites.I am now spending my time building projects with
             modern libraries and frameworks (NextJs, TailwindCss, Firebase,GCloud).
           </p>
       </div>
