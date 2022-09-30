@@ -22,7 +22,7 @@ function Projects({}: Props) {
       snap-mandatory z-20 scrollbar scrollbar-track-gary-400/20 scrollbar-thumb-red-600/40"
       >
         {projects.map((project, i) => (
-          <div
+          <div  key={project.toString()}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 
           items-center justify-center p-20 md:p-44 h-screen "
           >
